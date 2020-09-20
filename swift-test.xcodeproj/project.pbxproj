@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148572D6229F7A51009DFC2E /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148572D5229F7A51009DFC2E /* PlayerCell.swift */; };
+		148572D8229FB7CD009DFC2E /* GesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148572D7229FB7CD009DFC2E /* GesturesViewController.swift */; };
 		148D036A229D17A100685607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D0369229D17A100685607 /* AppDelegate.swift */; };
 		148D036C229D17A100685607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D036B229D17A100685607 /* ViewController.swift */; };
 		148D036F229D17A100685607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148D036D229D17A100685607 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		148D0374229D17A200685607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148D0372229D17A200685607 /* LaunchScreen.storyboard */; };
 		148D037F229D17A200685607 /* swift_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D037E229D17A200685607 /* swift_testTests.swift */; };
 		148D038A229D17A200685607 /* swift_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D0389229D17A200685607 /* swift_testUITests.swift */; };
+		148D0398229D250400685607 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D0397229D250400685607 /* PlayersViewController.swift */; };
+		148D039A229D25C600685607 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D0399229D25C600685607 /* Player.swift */; };
+		148D039C229D25F400685607 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D039B229D25F400685607 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148572D5229F7A51009DFC2E /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		148572D7229FB7CD009DFC2E /* GesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesViewController.swift; sourceTree = "<group>"; };
 		148D0366229D17A100685607 /* swift-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		148D0369229D17A100685607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		148D036B229D17A100685607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		148D0385229D17A200685607 /* swift-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		148D0389229D17A200685607 /* swift_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_testUITests.swift; sourceTree = "<group>"; };
 		148D038B229D17A200685607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148D0397229D250400685607 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		148D0399229D25C600685607 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		148D039B229D25F400685607 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				148D0369229D17A100685607 /* AppDelegate.swift */,
 				148D036B229D17A100685607 /* ViewController.swift */,
 				148D036D229D17A100685607 /* Main.storyboard */,
+				148572D7229FB7CD009DFC2E /* GesturesViewController.swift */,
+				148D0399229D25C600685607 /* Player.swift */,
+				148D039B229D25F400685607 /* SampleData.swift */,
+				148572D5229F7A51009DFC2E /* PlayerCell.swift */,
+				148D0397229D250400685607 /* PlayersViewController.swift */,
 				148D0370229D17A200685607 /* Assets.xcassets */,
 				148D0372229D17A200685607 /* LaunchScreen.storyboard */,
 				148D0375229D17A200685607 /* Info.plist */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148572D6229F7A51009DFC2E /* PlayerCell.swift in Sources */,
+				148D039A229D25C600685607 /* Player.swift in Sources */,
 				148D036C229D17A100685607 /* ViewController.swift in Sources */,
+				148D0398229D250400685607 /* PlayersViewController.swift in Sources */,
+				148572D8229FB7CD009DFC2E /* GesturesViewController.swift in Sources */,
+				148D039C229D25F400685607 /* SampleData.swift in Sources */,
 				148D036A229D17A100685607 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
