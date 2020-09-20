@@ -85,7 +85,7 @@
                                 <connections>
                                     <outlet property="gameLabel" destination="FpV-6X-1XK" id="1ab-PE-3Lc"/>
                                     <outlet property="nameLabel" destination="E5f-Ni-P5B" id="UNS-1V-R4G"/>
-                                    <outlet property="ratingImageView" destination="2GX-ll-Z5M" id="2CF-RX-sOJ"/>
+                                    <outlet property="ratingImageView" destination="2GX-ll-Z5M" id="YLF-4s-zkA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

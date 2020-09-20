@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1471A8C22516FB8E005E8B5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1471A8C12516FB8E005E8B5B /* README.md */; };
 		148572D6229F7A51009DFC2E /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148572D5229F7A51009DFC2E /* PlayerCell.swift */; };
 		148572D8229FB7CD009DFC2E /* GesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148572D7229FB7CD009DFC2E /* GesturesViewController.swift */; };
 		148D036A229D17A100685607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148D0369229D17A100685607 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1471A8C12516FB8E005E8B5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		148572D5229F7A51009DFC2E /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		148572D7229FB7CD009DFC2E /* GesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesViewController.swift; sourceTree = "<group>"; };
 		148D0366229D17A100685607 /* swift-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 		148D035D229D17A100685607 = {
 			isa = PBXGroup;
 			children = (
+				1471A8C12516FB8E005E8B5B /* README.md */,
 				148D0368229D17A100685607 /* swift-test */,
 				148D037D229D17A200685607 /* swift-testTests */,
 				148D0388229D17A200685607 /* swift-testUITests */,
@@ -246,6 +249,7 @@
 			files = (
 				148D0374229D17A200685607 /* LaunchScreen.storyboard in Resources */,
 				148D0371229D17A200685607 /* Assets.xcassets in Resources */,
+				1471A8C22516FB8E005E8B5B /* README.md in Resources */,
 				148D036F229D17A100685607 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
